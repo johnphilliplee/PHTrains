@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EBF5487F2BC26C8A005DE662 /* PHTrainsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5487E2BC26C8A005DE662 /* PHTrainsApp.swift */; };
-		EBF548812BC26C8A005DE662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF548802BC26C8A005DE662 /* ContentView.swift */; };
+		EBF548812BC26C8A005DE662 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF548802BC26C8A005DE662 /* MainTabView.swift */; };
 		EBF548832BC26C8B005DE662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF548822BC26C8B005DE662 /* Assets.xcassets */; };
 		EBF548872BC26C8B005DE662 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF548862BC26C8B005DE662 /* Preview Assets.xcassets */; };
 		EBF548912BC26C8C005DE662 /* PHTrainsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF548902BC26C8C005DE662 /* PHTrainsTests.swift */; };
@@ -16,6 +16,7 @@
 		EBF5489D2BC26C8C005DE662 /* PHTrainsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5489C2BC26C8C005DE662 /* PHTrainsUITestsLaunchTests.swift */; };
 		EBF548AA2BC26D80005DE662 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF548A92BC26D80005DE662 /* Station.swift */; };
 		EBF548AC2BC26D93005DE662 /* StationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF548AB2BC26D93005DE662 /* StationTests.swift */; };
+		EBF548AE2BC27EF2005DE662 /* MainTabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF548AD2BC27EF2005DE662 /* MainTabViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 /* Begin PBXFileReference section */
 		EBF5487B2BC26C8A005DE662 /* PHTrains.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHTrains.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF5487E2BC26C8A005DE662 /* PHTrainsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHTrainsApp.swift; sourceTree = "<group>"; };
-		EBF548802BC26C8A005DE662 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBF548802BC26C8A005DE662 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		EBF548822BC26C8B005DE662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBF548842BC26C8B005DE662 /* PHTrains.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PHTrains.entitlements; sourceTree = "<group>"; };
 		EBF548862BC26C8B005DE662 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		EBF5489C2BC26C8C005DE662 /* PHTrainsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHTrainsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EBF548A92BC26D80005DE662 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		EBF548AB2BC26D93005DE662 /* StationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTests.swift; sourceTree = "<group>"; };
+		EBF548AD2BC27EF2005DE662 /* MainTabViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				EBF5487E2BC26C8A005DE662 /* PHTrainsApp.swift */,
-				EBF548802BC26C8A005DE662 /* ContentView.swift */,
+				EBF548802BC26C8A005DE662 /* MainTabView.swift */,
 				EBF548822BC26C8B005DE662 /* Assets.xcassets */,
 				EBF548842BC26C8B005DE662 /* PHTrains.entitlements */,
 				EBF548852BC26C8B005DE662 /* Preview Content */,
@@ -122,6 +124,7 @@
 			children = (
 				EBF548902BC26C8C005DE662 /* PHTrainsTests.swift */,
 				EBF548AB2BC26D93005DE662 /* StationTests.swift */,
+				EBF548AD2BC27EF2005DE662 /* MainTabViewTests.swift */,
 			);
 			path = PHTrainsTests;
 			sourceTree = "<group>";
@@ -265,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF548812BC26C8A005DE662 /* ContentView.swift in Sources */,
+				EBF548812BC26C8A005DE662 /* MainTabView.swift in Sources */,
 				EBF548AA2BC26D80005DE662 /* Station.swift in Sources */,
 				EBF5487F2BC26C8A005DE662 /* PHTrainsApp.swift in Sources */,
 			);
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBF548AC2BC26D93005DE662 /* StationTests.swift in Sources */,
+				EBF548AE2BC27EF2005DE662 /* MainTabViewTests.swift in Sources */,
 				EBF548912BC26C8C005DE662 /* PHTrainsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
